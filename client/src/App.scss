@@ -1,1 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+:root {
+	--font-family: "Nunito", sans-serif;
+
+	//screen sizes
+	--smarthphone-width: 480px;
+	--tablet-width: 768px;
+	--laptop-width: 1024px;
+	--desktop-width: 1440px;
+}
+
+html {
+	//colores claros
+}
+
+html[data-theme="dark"] {
+	//colores oscuros
+}
+//------------------------------MEDIA QUERIES------------------------------//
+//#region smarthphone-width
+@media (max-width: var(--smarthphone-width)) {
+	//smarthphone-width
+}
+
+//#endregion smarthphone-width
+//#region tablet-width
+@media (max-width: var(--tablet-width)) {
+	//tablet-width
+}
+//#endregion tablet-width
+
+//#region laptop-width
+@media (max-width: var(--laptop-width)) {
+	//laptop-width
+}
+
+//#endregion laptop-width
+
+//#region desktop-width
+@media (max-width: var(--desktop-width)) {
+	//desktop-width
+}
+//#endregion desktop-width
