@@ -1,13 +1,6 @@
 import React from "react";
 import "./button.scss";
-
-export interface ButtonProps {
-	children: React.ReactNode;
-	onClick?: () => void;
-	type?: "button" | "submit" | "reset";
-	className?: "outlined" | "filled";
-	disabled?: boolean;
-}
+import { ButtonProps } from "../../models/componenets.models";
 
 export const Button: React.FC<ButtonProps> = ({
 	children,
